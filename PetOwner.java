@@ -9,9 +9,6 @@ private Dog dog;
     }
 
     public boolean isHappy(){
-        if (cat.isHappy() && dog.isHappy())
-            return true;
-        else
-            return false;
+        return cat.isHappy() && dog.isHappy();
     }
 }
