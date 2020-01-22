@@ -1,4 +1,4 @@
-public class Cats{
+public class Cat{
 
     private boolean fed;
     private boolean walked;
