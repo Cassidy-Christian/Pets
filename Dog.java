@@ -1,4 +1,4 @@
-Public class Dog{
+public class Dog{
 
     private boolean fed; 
     private boolean walked; 
@@ -12,10 +12,10 @@ Public class Dog{
 
     public boolean isHappy(){
         if(fed && walked && petted){
-            return true; 
+            return true; }
         else{
             return false; 
-        }
+    
         }
     }
 }
