@@ -9,5 +9,10 @@ public class PetsTester{
         else 
             System.out.println("hiss");
 
+        if (sammy.isHappy())
+            System.out.println("meow");
+        else 
+            System.out.println("hiss");
+
     }
 }
