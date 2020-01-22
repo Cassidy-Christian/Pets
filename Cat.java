@@ -10,6 +10,25 @@ public class Cat{
         this.petted = petted;
     }
 
+    public boolean getFed(){
+        return fed;
+    }
+    public boolean getWalked(){
+        return walked;
+    }
+    public boolean getPetted(){
+        return petted;
+    }
+    public void feedCat(){
+        fed = true;
+    }
+    public void walkCat(){
+        walked = true;
+    }
+    public void petCat(){
+        petted = true;
+    }
+
     public boolean isHappy(){
         if (fed && !walked && !petted)
             return true;
