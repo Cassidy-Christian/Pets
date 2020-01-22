@@ -17,5 +17,26 @@ public class Dog{
             return false; 
     
         }
+    
+    public boolean getFed(){
+        return fed; 
+    }
+    public boolean getWalked(){
+        return walked; 
+    }   
+    public boolean getPetted(){
+        return petted; 
+    }
+    public void petDog(){
+        petted =true ; 
+    }
+    public void walkDog(){
+        walked= true; 
+    }
+    public void fedDog(){
+        fed= true; 
+    }
+
+
     }
 }
