@@ -1,41 +1,14 @@
 public class PetsTester{
     public static void main(String[] args){
 
-        Cat scout = new Cat(true, false, false);
-        Dog spot = new Dog(true, true, false); 
-        PetOwner cassidy = new PetOwner(scout, spot);
+        Cat c = new Cat("Scout");
+        Dog d = new Dog("Spot"); 
+        Iguana i = new Iguana("Sclaey")
+        PetOwner po = new PetOwner("Cassidy", pets[]);
 
-        if (spot.isHappy())
-            System.out.println("Woof!");
-        else 
-            System.out.println("woof");
+        Pet pets[] = new Pets[3];
+        pets[0] = c;
+        pets[1] = d;
+        pets[2] = i;
 
-        if (scout.isHappy())
-            System.out.println("meow");
-        else 
-            System.out.println("hiss");
-
-        if (cassidy.isHappy())
-            System.out.println("yeet");
-        else 
-            System.out.println("sad boi hours :(");
-
-        scout.petCat();
-        spot.petDog();
-
-        if (spot.isHappy())
-        System.out.println("Woof!");
-        else 
-            System.out.println("woof");
-
-        if (scout.isHappy())
-            System.out.println("meow");
-        else 
-            System.out.println("hiss");
-
-        if (cassidy.isHappy())
-            System.out.println("yeet");
-        else 
-            System.out.println("sad boi hours :(");
-    }
 }
