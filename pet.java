@@ -1,19 +1,23 @@
 public class Pet{
-    private boolean hasBeenFed; 
-    private boolean hasBeenWalked; 
+    private String name;
+    private boolean hasBeenFed;
+    private boolean hasBeenWalked;
     private boolean hasBeenPetted;
     private String name;  
 
     public Pet(String name){
-        this.name = name; 
+        this.name = name;
     }
-    public void pet(){
-        hasBeenPetted = true ; 
-    }
-    public void walk(){
-        hasBeenWalked = true; 
+
+    public String getName(){
+        return name;
     }
     public void feed(){
-        hasBeenFed = true; 
+        this.hasBeenFed = true;
     }
-}
+    public void walk(){
+        this.hasBeenWalked = true;
+    }
+    public void pet(){
+        this.hasBeenPetted = true;
+    }
