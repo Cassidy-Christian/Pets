@@ -11,4 +11,14 @@ public class PetsTester{
         pets[1] = d;
         pets[2] = i;
 
+        c.talk(); 
+
+
 }
+
+
+// Cat sammy = new Cat(true, true, true); 
+
+// sammy.isHappy(){
+//     system.out.println("MEOW!:)")
+// }

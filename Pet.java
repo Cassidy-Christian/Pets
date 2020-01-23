@@ -3,6 +3,7 @@ public class Pet{
     private boolean hasBeenFed;
     private boolean hasBeenWalked;
     private boolean hasBeenPetted;
+    private String name;  
 
     public Pet(String name){
         this.name = name;

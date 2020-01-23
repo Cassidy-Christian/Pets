@@ -9,6 +9,6 @@ public class Iguana extends Pet {
     }
 
     public String talk(){
-        return isHappy() ? "schhhlurp" : "ggghhhhhrrggghhh";
+        return isHappy() ? "schhhlurp" : "ggghhhhhrrggghhh:(";
     }
 }
