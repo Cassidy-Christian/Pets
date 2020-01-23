@@ -1,40 +1,22 @@
 public class Pet{
-    private boolean fed; 
-    private boolean walked; 
-    private boolean petted;
-    private String name;  
+    private String name;
+    private boolean hasBeenFed;
+    private boolean hasBeenWalked;
+    private boolean hasBeenPetted;
 
-    public Pet(String name ){
-        this.name=name; 
-    }
-
-    public boolean isHappy(){
-        if(fed && walked && petted){
-            return true; }
-        else{
-            return false; 
-    
-        }
-    
-    public boolean getFed(){
-        return fed; 
-    }
-    public boolean getWalked(){
-        return walked; 
-    }   
-    public boolean getPetted(){
-        return petted; 
-    }
-    public void petDog(){
-        petted =true ; 
-    }
-    public void walkDog(){
-        walked= true; 
-    }
-    public void fedDog(){
-        fed= true; 
+    public Pet(String name){
+        this.name = name;
     }
 
-
+    public String getName(){
+        return name;
     }
-}
+    public void feed(){
+        this.hasBeenFed = true;
+    }
+    public void walk(){
+        this.hasBeenWalked = true;
+    }
+    public void pet(){
+        this.hasBeenPetted = true;
+    }
