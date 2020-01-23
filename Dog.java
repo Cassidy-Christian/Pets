@@ -5,10 +5,10 @@ public class Dog extends Pet{
     }
 
     public boolean isHappy(){
-        return hasBeenFed() && hasBeenWalked() && hasBeenPetted();
+        return hasBeenFed && hasBeenWalked && hasBeenPetted;
     }
 
-    public String talk(){
-        return isHappy() ? "woof :)" : "woof :(";
+    public void talk(){
+        System.out.println( isHappy() ? "woof :)" : "woof :(");
     }
 }

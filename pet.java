@@ -1,9 +1,9 @@
-public class Pet{
-    private String name;
-    private boolean hasBeenFed;
-    private boolean hasBeenWalked;
-    private boolean hasBeenPetted;
-    private String name;  
+public abstract class Pet{
+    protected String name;
+    protected boolean hasBeenFed;
+    protected boolean hasBeenWalked;
+    protected boolean hasBeenPetted;
+      
 
     public Pet(String name){
         this.name = name;
@@ -21,3 +21,6 @@ public class Pet{
     public void pet(){
         this.hasBeenPetted = true;
     }
+    public abstract boolean isHappy(); 
+    public abstract void talk(); 
+}

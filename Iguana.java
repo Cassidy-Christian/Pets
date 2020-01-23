@@ -5,10 +5,10 @@ public class Iguana extends Pet {
     }
 
     public boolean isHappy(){
-        return hasBeenFed() && hasBeenWalked() && !hasBeenPetted();
+        return hasBeenFed && hasBeenWalked && !hasBeenPetted;
     }
 
-    public String talk(){
-        return isHappy() ? "schhhlurp" : "ggghhhhhrrggghhh:(";
+    public void talk(){
+        System.out.println( isHappy() ? "schhhlurp" : "ggghhhhhrrggghhh:(");
     }
 }
