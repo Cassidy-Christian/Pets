@@ -2,7 +2,7 @@ public abstract class Pet{
     protected String name;
     protected boolean hasBeenFed;
     protected boolean hasBeenWalked;
-    protected boolean hasBeenPetted;
+    protected boolean hasBeenPetted;duc
       
 
     public Pet(String name){
